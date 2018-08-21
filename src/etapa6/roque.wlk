@@ -13,6 +13,10 @@ object roque {
 		
 		pupilo = ave	
 	}
+	
+	method pupiloActual() {
+		return pupilo
+	}
 	 	
 	method entrenar() { 
 		

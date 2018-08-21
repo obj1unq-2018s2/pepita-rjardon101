@@ -1,0 +1,15 @@
+describe "test de entrenamiento de roque" {
+	
+	
+	// no recuerdo como resolver el problema "cannot resolve reference"
+	test "roque entrena aves" {
+	roque.tuPupiloEs(pepita)
+    roque.entrenar()
+    roque.tuPupiloEs(pipa)
+    roque.entrenar()
+    assert.equals(pepita.energia() , 10)
+		
+	}
+	
+	
+}

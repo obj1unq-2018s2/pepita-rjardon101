@@ -7,7 +7,14 @@ object pepon {
 	method volar(kms) { energia -=  kms * 0.5 + 1  }           
 	method haceLoQueQuieras() { 
 		self.volar(1)
-	}   }
+	}   
+	
+	method puedeVolar(unosKms) {
+		return energia > 1 + unosKms * 0.5
+	}
+	
+	
+	}
 
 // implementar el objeto entero, salvo haceLoQueQuieras que lo damos hecho
 // ayuda: conviene ponerle dos atributos
@@ -22,6 +29,11 @@ object pipa {
 		method haceLoQueQuieras() { }   
 	// pregunta: ¿por qué es necesario agregar este método, sin código
 	//para mantener el polimorfismo
+	
+	method puedeVolar(unosKms) {
+		return true
+
+			}
 }
 
 object pepita {

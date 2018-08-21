@@ -7,8 +7,10 @@ Lo que se pide es responder dos preguntas.
 1. Si le indicamos a Roque que su pupilo es el helicóptero feo, ¿lo va a poder entrenar? 
    Si no puede, ¿por qué es?
    Más precisamente, ¿a qué objeto le falta algo, a `roque` o a `helicopteroFeo`? ¿qué es lo que falta?
+   el helicoptero feo no puede entender el methodo comer()
 1. Lo mismo para Pepucha. 
    Agregar lo que falte para que sí se pueda asignar a Pepucha como pupila de Roque, y hacer que Roque la entrene.
+   solo hace falta importan cosas que vuelan a roque
 
 Relacionar estos dos puntos con la idea de _polimorfismo_. <br>
 Para que el helicóptero feo, o pepucha, puedan ser entrenados por Roque, ¿con quién/es tienen que ser polimórficos? 
